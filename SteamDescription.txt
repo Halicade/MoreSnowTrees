@@ -1,0 +1,16 @@
+This is an update and rework of the mod Natures Pretty Sweet. Split up into multiple mods for convenience.
+Originally created by [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1211694919]tkkntkkns[/url]
+Then continued by [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3542949511]Mlie[/url]
+
+This mod has been split into three parts, Weather Effects, Biomes, [b]Snow textures[/b].
+
+When I was looking at the textures the original NPS had, there were a decent amount of snow textures for base game trees. Rather than have them as new textures, I cut out the plant part and repurposed them as overlays. It didn't seem appropriate in the weather effects mod, so I put them into its own mod.
+
+This adds snow overlay textures to a bunch of base game trees and plants. Trees like birch, oak, and willow. As well as brambles, chokevine and a couple other plants.
+There is an option to replace the base games snow overlay textures on some trees with this mods. It is off by default.
+Will possibly look weird with plant retexture mods. Not much I can do about that.
+
+Should be safe to add/remove mid-save
+[h2]Credits[/h2]tkkntkkn - Original creator of this mod
+mlie - Continued this mod so I was able to find it
+[h1]Bug reports[/h1]Please supply a log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Publisher[/url] for any bugs that may occur.

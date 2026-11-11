@@ -1,1 +1,142 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <!--
+    Possible Locations
+    <snowOverlayGraphicPath>TKKN_NPS/Plant_Brambles</snowOverlayGraphicPath>
+    <leaflessSnowOverlayGraphicPath>TKKN_NPS/Plant_Brambles</leaflessSnowOverlayGraphicPath>
+    <immatureSnowOverlayGraphicPath>TKKN_NPS/Plant_Brambles</immatureSnowOverlayGraphicPath>
+    
+    LazyPatchOp cause I was lazy and didn't know what to call it.
+    It's a conditional, it will only be ran if the setting to overwrite base game tree textures is active. 
+    Otherwise, it does nothing
+    -->
+    <Operation Class="MoreSnowTrees.LazyPatchOp">
+        <xpath>Defs/ThingDef[defName = "Plant_Brambles"]/plant/Leafless/leaflessSnowOverlayGraphicPath</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName = "Plant_Brambles"]/plant</xpath>
+            <value>
+                <leaflessSnowOverlayGraphicPath>TKKN_NPS/Leafless/Plant_Brambles</leaflessSnowOverlayGraphicPath>
+            </value>
+        </nomatch>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName = "Plant_Brambles"]/plant/Leafless/leaflessSnowOverlayGraphicPath</xpath>
+            <value>
+                <leaflessSnowOverlayGraphicPath>TKKN_NPS/Leafless/Plant_Brambles</leaflessSnowOverlayGraphicPath>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="MoreSnowTrees.LazyPatchOp">
+        <xpath>Defs/ThingDef[defName = "Plant_Bush"]/plant/Leafless/leaflessSnowOverlayGraphicPath</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName = "Plant_Bush"]/plant</xpath>
+            <value>
+                <leaflessSnowOverlayGraphicPath>TKKN_NPS/Leafless/Plant_Bush</leaflessSnowOverlayGraphicPath>
+            </value>
+        </nomatch>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName = "Plant_Bush"]/plant/Leafless/leaflessSnowOverlayGraphicPath</xpath>
+            <value>
+                <leaflessSnowOverlayGraphicPath>TKKN_NPS/Leafless/Plant_Bush</leaflessSnowOverlayGraphicPath>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="MoreSnowTrees.LazyPatchOp">
+        <xpath>Defs/ThingDef[defName = "Plant_TreeBirch"]/plant/Leafless/leaflessSnowOverlayGraphicPath</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName = "Plant_TreeBirch"]/plant</xpath>
+            <value>
+                <leaflessSnowOverlayGraphicPath>TKKN_NPS/Leafless/Plant_TreeBirch</leaflessSnowOverlayGraphicPath>
+            </value>
+        </nomatch>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName = "Plant_TreeBirch"]/plant/Leafless/leaflessSnowOverlayGraphicPath</xpath>
+            <value>
+                <leaflessSnowOverlayGraphicPath>TKKN_NPS/Leafless/Plant_TreeBirch</leaflessSnowOverlayGraphicPath>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="MoreSnowTrees.LazyPatchOp">
+        <xpath>Defs/ThingDef[defName = "Plant_TreeCypress"]/plant/Leafless/leaflessSnowOverlayGraphicPath</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName = "Plant_TreeCypress"]/plant</xpath>
+            <value>
+                <leaflessSnowOverlayGraphicPath>TKKN_NPS/Leafless/Plant_TreeCypress</leaflessSnowOverlayGraphicPath>
+            </value>
+        </nomatch>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName = "Plant_TreeCypress"]/plant/Leafless/leaflessSnowOverlayGraphicPath</xpath>
+            <value>
+                <leaflessSnowOverlayGraphicPath>TKKN_NPS/Leafless/Plant_TreeCypress</leaflessSnowOverlayGraphicPath>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="MoreSnowTrees.LazyPatchOp">
+        <xpath>Defs/ThingDef[defName = "Plant_TreeMaple"]/plant/Leafless/leaflessSnowOverlayGraphicPath</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName = "Plant_TreeMaple"]/plant</xpath>
+            <value>
+                <leaflessSnowOverlayGraphicPath>TKKN_NPS/Leafless/Plant_TreeMaple</leaflessSnowOverlayGraphicPath>
+            </value>
+        </nomatch>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName = "Plant_TreeMaple"]/plant/Leafless/leaflessSnowOverlayGraphicPath</xpath>
+            <value>
+                <leaflessSnowOverlayGraphicPath>TKKN_NPS/Leafless/Plant_TreeMaple</leaflessSnowOverlayGraphicPath>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="MoreSnowTrees.LazyPatchOp">
+        <xpath>Defs/ThingDef[defName = "Plant_TreeOak"]/plant/Leafless/leaflessSnowOverlayGraphicPath</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName = "Plant_TreeOak"]/plant</xpath>
+            <value>
+                <leaflessSnowOverlayGraphicPath>TKKN_NPS/Leafless/Plant_TreeOak</leaflessSnowOverlayGraphicPath>
+            </value>
+        </nomatch>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName = "Plant_TreeOak"]/plant/Leafless/leaflessSnowOverlayGraphicPath</xpath>
+            <value>
+                <leaflessSnowOverlayGraphicPath>TKKN_NPS/Leafless/Plant_TreeOak</leaflessSnowOverlayGraphicPath>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="MoreSnowTrees.LazyPatchOp">
+        <xpath>Defs/ThingDef[defName = "Plant_TreePoplar"]/plant/Leafless/leaflessSnowOverlayGraphicPath</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName = "Plant_TreePoplar"]/plant</xpath>
+            <value>
+                <leaflessSnowOverlayGraphicPath>TKKN_NPS/Leafless/Plant_TreePoplar</leaflessSnowOverlayGraphicPath>
+            </value>
+        </nomatch>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName = "Plant_TreePoplar"]/plant/Leafless/leaflessSnowOverlayGraphicPath</xpath>
+            <value>
+                <leaflessSnowOverlayGraphicPath>TKKN_NPS/Leafless/Plant_TreePoplar</leaflessSnowOverlayGraphicPath>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="MoreSnowTrees.LazyPatchOp">
+        <xpath>Defs/ThingDef[defName = "Plant_TreeWillow"]/plant/Leafless/leaflessSnowOverlayGraphicPath</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName = "Plant_TreeWillow"]/plant</xpath>
+            <value>
+                <leaflessSnowOverlayGraphicPath>TKKN_NPS/Leafless/Plant_TreeWillow</leaflessSnowOverlayGraphicPath>
+            </value>
+        </nomatch>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName = "Plant_TreeWillow"]/plant/Leafless/leaflessSnowOverlayGraphicPath</xpath>
+            <value>
+                <leaflessSnowOverlayGraphicPath>TKKN_NPS/Leafless/Plant_TreeWillow</leaflessSnowOverlayGraphicPath>
+            </value>
+        </match>
+    </Operation>
+
+
+</Patch>

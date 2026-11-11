@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>MoreSnowTrees</name>
-    <author>Halicade</author>
+    <name>Nature's Pretty Sweet: More Snowy Tree Textures</name>
+    <author>tkkntkkn, mlie, halicade</author>
     <supportedVersions>
-        <li>1.4</li>
+        <li>1.6</li>
+        <li>1.7</li>
     </supportedVersions>
-    <packageId>Halicade.MoreSnowTrees</packageId>
-    <description>My Rimworld Mod</description>
-
-    <loadAfter>
-        <li>Ludeon.RimWorld</li>
-        <li>Ludeon.RimWorld.Ideology</li>
-        <li>Ludeon.RimWorld.Royalty</li>
-    </loadAfter>
+    <packageId>hali.MoreSnowTrees</packageId>
+    <description>Provides more textures for some trees when they get snow. Also includes optional variants for some.
+</description>
 </ModMetaData>

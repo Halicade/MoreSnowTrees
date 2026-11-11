@@ -1,1 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <MST_Title>More Snow Tree Textures</MST_Title>
+    
+    <MST_OverwriteVanillaTextures>Restart Required:\nOverwrite vanilla leafless snow textures.</MST_OverwriteVanillaTextures>
+    <MST_OverwriteVanillaTextures_Tooltip>Replace base game leafless snow textures with ones from this mod.</MST_OverwriteVanillaTextures_Tooltip>
+    
+</LanguageData>
