@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<!--
+	Possible Locations
+	<snowOverlayGraphicPath>TKKN_NPS/Plant_Brambles</snowOverlayGraphicPath>
+	<leaflessSnowOverlayGraphicPath>TKKN_NPS/Plant_Brambles</leaflessSnowOverlayGraphicPath>
+	<immatureSnowOverlayGraphicPath>TKKN_NPS/Plant_Brambles</immatureSnowOverlayGraphicPath>
+	-->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName = "Plant_Brambles"]/plant/snowOverlayGraphicPath</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "Plant_Brambles"]/plant</xpath>
+			<value>
+				<snowOverlayGraphicPath>TKKN_NPS/Plant_Brambles</snowOverlayGraphicPath>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName = "Plant_Bush"]/plant/snowOverlayGraphicPath</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "Plant_Bush"]/plant</xpath>
+			<value>
+				<snowOverlayGraphicPath>TKKN_NPS/Plant_Bush</snowOverlayGraphicPath>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName = "Plant_Chokevine"]/plant/snowOverlayGraphicPath</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "Plant_Chokevine"]/plant</xpath>
+			<value>
+				<snowOverlayGraphicPath>TKKN_NPS/Plant_Chokevine</snowOverlayGraphicPath>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName = "Plant_PincushionCactus"]/plant/snowOverlayGraphicPath</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "Plant_PincushionCactus"]/plant</xpath>
+			<value>
+				<snowOverlayGraphicPath>TKKN_NPS/Plant_PincushionCactus</snowOverlayGraphicPath>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName = "Plant_TreeBamboo"]/plant/snowOverlayGraphicPath</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "Plant_TreeBamboo"]/plant</xpath>
+			<value>
+				<snowOverlayGraphicPath>TKKN_NPS/Plant_TreeBamboo</snowOverlayGraphicPath>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName = "Plant_TreeBirch"]/plant/snowOverlayGraphicPath</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "Plant_TreeBirch"]/plant</xpath>
+			<value>
+				<snowOverlayGraphicPath>TKKN_NPS/Plant_TreeBirch</snowOverlayGraphicPath>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName = "Plant_TreeCecropia"]/plant/snowOverlayGraphicPath</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "Plant_TreeCecropia"]/plant</xpath>
+			<value>
+				<snowOverlayGraphicPath>TKKN_NPS/Plant_TreeCecropia</snowOverlayGraphicPath>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName = "Plant_TreeCypress"]/plant/snowOverlayGraphicPath</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "Plant_TreeCypress"]/plant</xpath>
+			<value>
+				<snowOverlayGraphicPath>TKKN_NPS/Plant_TreeCypress</snowOverlayGraphicPath>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName = "Plant_TreeDrago"]/plant/snowOverlayGraphicPath</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "Plant_TreeDrago"]/plant</xpath>
+			<value>
+				<snowOverlayGraphicPath>TKKN_NPS/Plant_TreeDrago</snowOverlayGraphicPath>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName = "Plant_TreeMaple"]/plant/snowOverlayGraphicPath</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "Plant_TreeMaple"]/plant</xpath>
+			<value>
+				<snowOverlayGraphicPath>TKKN_NPS/Plant_TreeMaple</snowOverlayGraphicPath>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName = "Plant_TreeOak"]/plant/snowOverlayGraphicPath</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "Plant_TreeOak"]/plant</xpath>
+			<value>
+				<snowOverlayGraphicPath>TKKN_NPS/Plant_TreeOak</snowOverlayGraphicPath>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName = "Plant_TreePalm"]/plant/snowOverlayGraphicPath</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "Plant_TreePalm"]/plant</xpath>
+			<value>
+				<snowOverlayGraphicPath>TKKN_NPS/Plant_TreePalm</snowOverlayGraphicPath>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName = "Plant_TreePoplar"]/plant/snowOverlayGraphicPath</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "Plant_TreePoplar"]/plant</xpath>
+			<value>
+				<snowOverlayGraphicPath>TKKN_NPS/Plant_TreePoplar</snowOverlayGraphicPath>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName = "Plant_TreeTeak"]/plant/snowOverlayGraphicPath</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "Plant_TreeTeak"]/plant</xpath>
+			<value>
+				<snowOverlayGraphicPath>TKKN_NPS/Plant_TreeTeak</snowOverlayGraphicPath>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName = "Plant_TreeWillow"]/plant/snowOverlayGraphicPath</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "Plant_TreeWillow"]/plant</xpath>
+			<value>
+				<snowOverlayGraphicPath>TKKN_NPS/Plant_TreeWillow</snowOverlayGraphicPath>
+			</value>
+		</nomatch>
+	</Operation>
+
+</Patch>
